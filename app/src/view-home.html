@@ -1,0 +1,60 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="shared-styles.html">
+
+<dom-module id="view-home">
+  <template>
+    <style include="shared-styles">
+      :host {
+        display: block;   
+      }
+
+      .center {
+        text-align: center;
+      }
+
+      button {
+        color: white;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid rgb(255, 153, 0);
+        background-color: rgb(255, 153, 0);
+        padding: 10px;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    </style>
+
+  <div class="card">
+    <h1>September 23-24, 2016</h1>
+    <i>The biggest developer tech conference in Washington DC</i>
+  </div>
+
+  <div class="card">
+    <p>We expect nearly 600 attendees to these action packed sessions by leading technology experts 
+      from Google and other companies representing an exciting array of technologies including:</p>
+    <p>Great Sessions and Code Labs on DevOps, Android, Machine Learning, Wearables, Firebase, Polymer, 
+      AngularJS, Google Cloud Platform, Startups and others.</p>
+    <p class="center">
+      <a href="http://www.devfestdc.org/tickets/"><button>Buy Tickets</button></a>
+    </p>
+  </div>
+
+  <div class="card">
+    <img src="/images/gdg-dc.png" width=700 height=197>
+  </div>
+
+  </template>
+
+  <script>
+    Polymer({
+      is: 'view-home',
+
+      ready: function() {
+        window.performance && performance.mark && performance.mark('view-home.ready');
+      }
+    });
+  </script>
+</dom-module>

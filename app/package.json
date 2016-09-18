@@ -1,0 +1,42 @@
+{
+  "name": "devfestdc.rocks",
+  "version": "1.0.0",
+  "description": "DevFestDC PWA",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "polymer build",
+    "test": "xo",
+    "deploy": "docker-compose build; docker-compose up -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uncompiled/devfestdc.rocks.git"
+  },
+  "keywords": [
+    "DevFestDC",
+    "PWA"
+  ],
+  "author": "Chris Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uncompiled/devfestdc.rocks/issues"
+  },
+  "homepage": "https://github.com/uncompiled/devfestdc.rocks/",
+  "dependencies": {
+    "express": "^4.14.0",
+    "netjet": "uncompiled/netjet#878ba6507c"
+  },
+  "devDependencies": {
+    "http2-push-manifest": "^1.0.1",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "space": true,
+    "semicolon": false,
+    "esnext": true,
+    "ignores": [
+      "build/**"
+    ]
+  }
+}

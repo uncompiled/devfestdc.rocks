@@ -1,0 +1,63 @@
+{
+	"data": [{
+		"time": "8:00 - 9:00",
+		"track1": "Registration"
+	}, {
+		"time": "9:00 - 9:05",
+		"track1": "Welcome and Official Event Kick-Off"
+	}, {
+		"time": "9:05 - 9:45",
+		"track1": "Keynote"
+	}, {
+		"time": "9:45 - 10:00",
+		"track1": "(Coffee break)"
+	}, {
+		"time": "10:00 - 10:45",
+		"track1": "TensorFlow at the Museum - Josh Gordon, Google",
+		"track2": "Implementing HTTP/2 Server with Node and Express - Azat Mardan, Capital One",
+		"track3": "Espresso: A Screenshot is Worth 1,000 Words - Sam Edwards, Capital One"
+	}, {
+		"time": "10:45 - 11:30",
+		"track1": "Zero to App style live-coding demo - Frank van Puffelen, Google",
+		"track2": "Visualizing data in Elasticsearch: Search, Timeseries, and Graph Analysis in the Cloud - Dave Erickson, Elastic",
+		"track3": "Kotlin for Android Developers - Mike Evans, LivingSocial"
+	}, {
+		"time": "11:30 - 11:45",
+		"track1": "(Break)"
+	}, {
+		"time": "11:45 - 12:30",
+		"track1": "A Very Potter Door to the Future - Yufeng Gao, Google",
+		"track2": "D3 + AngularJS = Visual Awesomesauce - John Niedzwieck - ThreatTrack",
+		"track3": "Making Sense - Unleash The Power of Sensory Data to Understand User Context Jared Sheehan, Capital One"
+	}, {
+		"time": "12:30 - 1:30",
+		"track1": "(Lunch break)"
+	}, {
+		"time": "1:30 - 2:15",
+		"track1": "Doing Periodic Work: Another Android Headache - Mark Murphy, Commonsware",
+		"track2": "JHipster on Kubernetes - Dennis Sharpe, IpponUSA",
+		"track3": "Measure, Layout, Draw, Repeat: Custom Views and ViewGroups - Huyen Tue Dao, Trello"
+	}, {
+		"time": "2:15 - 3:00",
+		"track1": "Game Development with Firebase and Javascript - Martin Omander, Google",
+		"track2": "The Hitchhiker's Guide to Building a Progressive Web App - Chris Nguyen, Washington Post",
+		"track3": "PaaS - Michael Epley, RedHat"
+	}, {
+		"time": "3:00 - 3:15",
+		"track1": "(Break)"
+	}, {
+		"time": "3:15 - 4:00",
+		"track1": "Be together, not the same - Anastasia Lopez & Romain Piel, Songkick",
+		"track2": "What’s Next For Openstack At Walmart - Andrew Mitry, Walmart - Openstack",
+		"track3": "Poke-a-Mongo or How to write online game that works offline - Oleg Godovykh"
+	}, {
+		"time": "4:00 - 4:45",
+		"track1": "Fireside Chat: Scale. Innovation. Massive Democratization. Disruption. - Mike Brown, comScore & Raj Echambadi - Univ of Illinois"
+	}, {
+		"time": "4:45 - 5:00",
+		"track1": "Closing"
+	}, {
+		"time": "5:00",
+		"track1": "Happy Hour"
+	}]
+}

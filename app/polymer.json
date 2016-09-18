@@ -1,0 +1,23 @@
+{
+  "entrypoint": "index.html",
+  "shell": "src/devfestdc-app.html",
+  "fragments": [
+    "src/view-home.html",
+    "src/view-location.html",
+    "src/view-schedule.html",
+    "src/view-sessions.html",
+    "src/view-codelabs.html",
+    "src/view-conduct.html",
+    "src/lazy-load.html"
+  ],
+  "sourceGlobs": [
+   "src/**/*",
+   "images/**/*",
+   "data/**/*",
+   "bower.json"
+  ],
+  "includeDependencies": [
+    "manifest.json",
+    "bower_components/webcomponentsjs/webcomponents-lite.min.js"
+  ]
+}

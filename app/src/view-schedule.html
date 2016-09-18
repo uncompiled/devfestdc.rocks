@@ -1,0 +1,68 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/paper-tabs/paper-tabs.html">
+<link rel="import" href="../bower_components/iron-pages/iron-pages.html">
+<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
+
+<link rel="import" href="shared-styles.html">
+
+<dom-module id="view-schedule">
+  <template>
+    <style include="shared-styles">
+      :host {
+        display: block;
+      }
+      nav { 
+        text-align: center;
+      }
+      paper-tabs {
+        color: #3f51b5;
+        --paper-tabs-selection-bar-color: pink;
+      }
+    </style>
+
+    <iron-ajax auto url="{{ dataFile }}" handle-as="json" last-response="{{sessions}}"></iron-ajax>
+
+    <paper-tabs selected="0">
+      <paper-tab id="day1">September 23</paper-tab>
+      <paper-tab id="day2">September 24</paper-tab>
+    </paper-tabs>
+
+    <template is="dom-repeat" items="{{sessions.data}}">
+      <div class="card">
+        <h1>{{ item.time }}</h1>
+        <ul>
+          <li>{{ item.track1 }}</li>
+          <template is="dom-if" if="{{ item.track2 }}">
+          <li>{{ item.track2 }}</li>
+          </template>
+          <template is="dom-if" if="{{ item.track3 }}">
+          <li>{{ item.track3 }}</li>
+          </template>
+        </ul>
+      </div>
+    </template>
+
+  </template>
+
+  <script>
+    Polymer({
+      is: 'view-schedule',
+      properties: {
+        dataFile: {
+          type: String,
+          value: "/data/sessions-day1.json"
+        },
+        sessions: {
+          type: Object
+        }
+      },
+      toggleData: function(e) {
+        this.dataFile = "/data/sessions-" + e.currentTarget.id + ".json"
+      },
+      ready: function() {
+        this.listen(this.$.day1, 'tap', 'toggleData');
+        this.listen(this.$.day2, 'tap', 'toggleData');
+      }
+    });
+  </script>
+</dom-module>

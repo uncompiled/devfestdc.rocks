@@ -1,0 +1,32 @@
+module.exports = {
+  staticFileGlobs: [
+    '/images/**/*',
+    '/data/**/*',
+    '/index.html',
+    '/manifest.json',
+    '/bower_components/webcomponentsjs/webcomponents-lite.min.js'
+  ],
+  navigateFallback: '/index.html',
+  runtimeCaching: [
+    {
+      urlPattern: /^https:\/\/maps\.googleapis\.com\//,
+      handler: 'fastest',
+      options: {
+        cache: {
+          maxEntries: 50,
+          name: 'maps-cache'
+        }
+      }
+    },
+    {
+      urlPattern: /^https:\/\/(.*)\.gstatic\.com\//,
+      handler: 'fastest',
+      options: {
+        cache: {
+          maxEntries: 50,
+          name: 'gstatic-cache'
+        }
+      }
+    }
+  ]
+}

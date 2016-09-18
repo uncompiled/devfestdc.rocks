@@ -1,0 +1,55 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/google-map/google-map.html">
+<link rel="import" href="shared-styles.html">
+
+<dom-module id="view-location">
+  <template>
+    <style include="shared-styles">
+      :host {
+        display: block;
+      }
+
+      .card a {
+        text-decoration: none;
+      }
+
+      google-map {
+        height: 300px;
+      }
+    </style>
+
+    <google-map latitude="38.924605" longitude="-77.212925" zoom="15"
+      api-key="AIzaSyDYA-Z2b-oua6133qM9wehfz9QgLKzQGf4">
+      <google-map-marker latitude="38.924605" longitude="-77.212925"></google-map-marker>
+    </google-map>
+    
+    <div class="card">
+      <h1>Location</h1>
+      <p>Capital One McLean Conference Center</br>
+      <a href="https://www.google.com/maps/place/1680+Capital+One+Tower+Dr,+Tysons,+VA+22102/@38.9257505,-77.2111092,16z/data=!4m13!1m7!3m6!1s0x89b64ac0e872a67f:0xb09ff518de075109!2s1680+Capital+One+Tower+Dr,+Tysons,+VA+22102!3b1!8m2!3d38.9242147!4d-77.2134052!3m4!1s0x89b64ac0e872a67f:0xb09ff518de075109!8m2!3d38.9242147!4d-77.2134052">
+      1680 Capital One Dr, McLean, VA</a></p>
+    </div>
+
+    <div class="card">
+      <h1>Parking</h1>
+      <p>Capital One has plenty of free parking allocated on Friday and Saturday for attendees. There will be Capital One Security, Volunteers and Signs will guide to the Event Space in the ground floor at Capital One.</p>
+    </div>
+
+    <div class="card">
+      <h1>Transportation</h1>
+      <p>This location is walkable from McLean Metro Station in Silver Line.</p>
+    </div>
+
+    <div class="card">
+      <h1>Hotel</h1>
+      <p>There is a discounted group rate at the <a href="https://www.ihg.com/crowneplaza/hotels/us/en/mclean/wasty/hoteldetail?qRef=rr&qRpn=1&qChld=0&qSrt=sBR&qSHp=0&qSmP=3&qIta=99801505&qGRM=0&qSlH=wasty&qRms=1&srb_u=1&qAdlt=1&qPSt=0&qCiMy=082016&qHtlC=wasty&qCoD=25&qCiD=23&qGrpCd=GOO&qCoMy=082016&qRmP=T.C.O.X.K&qRRSrt=rc&qRpp=12&qBrs=hi.ex.rs.ic.cp.in.sb.cw.cv.6c.vn.ul.ki&qWch=0">Crowne Plaza Tysons Corner-McLean</a>.</p>
+    </div>
+
+  </template>
+
+  <script>
+    Polymer({
+      is: 'view-location'
+    });
+  </script>
+</dom-module>

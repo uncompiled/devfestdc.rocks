@@ -1,0 +1,63 @@
+{
+	"data": [{
+		"time": "8:30 - 9:00",
+		"track1": "Day 2 - Registration"
+	}, {
+		"time": "9:00 - 9:05",
+		"track1": "Logistics for Day 2"
+	}, {
+		"time": "9:05 - 9:45",
+		"track1": "Machine Learning APIs - Bret McGowan - Google"
+	}, {
+		"time": "9:45 - 10:00",
+		"track1": "(Coffee break)"
+	}, {
+		"time": "10:00 - 10:45",
+		"track1": "I'm Not Sure I Belong Here - Jessica Bell, Mark Brown II, Lougenia Bailey",
+		"track2": "Wallpapers, Widgets & Wear - Elizabeth Mezias, Mezcode",
+		"track3": "Workshop: Building 10x Solutions - Katy Kasmai, Team Exponent/Google"
+	}, {
+		"time": "10:45 - 11:30",
+		"track1": "Building navigation and offline maps using the Mapbox SDK - Antonio Zugaldia & Cameron Mace, Mapbox",
+		"track2": "Introduction to Go Concurrency - Jonathan Bodner, Capital One - Go",
+		"track3": "Workshop: Building 10x Solutions"
+	}, {
+		"time": "11:30 - 11:45",
+		"track1": "(Break)",
+		"track3": "Workshop: Building 10x Solutions"
+	}, {
+		"time": "11:45 - 12:30",
+		"track1": "Open Source Identity Management with Kubernetes RBAC - Marc Boorshtein, Tremolo Security",
+		"track2": "User-centered Product Validation - Noble Ackerson, Byte an Atom Research",
+		"track3": "Workshop: Building 10x Solutions"
+	}, {
+		"time": "12:30 - 1:30",
+		"track1": "(Lunch break)",
+		"track3": "Workshop: Building 10x Solutions"
+	}, {
+		"time": "1:30 - 2:15",
+		"track1": "Running an Inclusive Open Source Software Team - Elissa Shevinsky, Kearney Boyle & Associates",
+		"track2": "Set Course for Notifications… Engage! - Eric Fung, Shopify",
+		"track3": "Workshop: Building 10x Solutions"
+	}, {
+		"time": "2:15 - 3:00",
+		"track1": "Building Real-Time Reactive Applications for the Modern User - Nitya Narasimhan, Google",
+		"track2": "Google Tag Manager (GTM) - Naveen Singhal & Eric Newman, MobilePosse",
+		"track3": "Workshop: Building 10x Solutions"
+	}, {
+		"time": "3:00 - 3:15",
+		"track1": "(Break)",
+		"track3": "Workshop: Building 10x Solutions"
+	}, {
+		"time": "3:15 - 4:00",
+		"track1": "Jumpstart MongoDB: What You Need To Know - Jay Gordon, MongoDB",
+		"track2": "Decoupled, Immutable REST APIs with Kafka Streams",
+		"track3": "Workshop: Building 10x Solutions"
+	}, {
+		"time": "4:00 - 4:45",
+		"track1": "Building 10x Solutions - Workshop Presentations. Awards and Closing"
+	}, {
+		"time": "4:45 - 5:00",
+		"track1": "Closing"
+	}]
+}

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+    <title>DevFestDC.rocks</title>
+    <meta name="description" content="DevFestDC 2016 – Cloud, BigData, Mobile & Emerging Technologies @ Capital One, Tysons Corner, VA">
+    <meta property="og:title" content="DevFestDC 2016" />
+    <meta property="og:description" content="DevFestDC 2016 – Cloud, BigData, Mobile & Emerging Technologies @ Capital One, Tysons Corner, VA">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.devfestdc.rocks/" />
+    <meta property="og:image" content="https://www.devfestdc.rocks/images/gdg-dc.jpg" />
+
+    <link rel="shortcut icon" href="/images/favicon.jpg">
+    <link rel="manifest" href="/manifest.json">
+
+    <meta name="theme-color" content="#3f51b5">
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="DevFestDC">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="DevFestDC">
+
+    <!-- Homescreen icons -->
+    <link rel="apple-touch-icon" href="/images/manifest/icon-48x48.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/manifest/icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="96x96" href="/images/manifest/icon-96x96.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/manifest/icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="/images/manifest/icon-192x192.png">
+
+    <!-- Tile icon for Windows 8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="/images/manifest/icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#3f51b5">
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <link rel="import" href="/src/devfestdc-app.html" async>
+    
+    <style>
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+        line-height: 1.5;
+        min-height: 100vh;
+        background-color: #eeeeee;
+      }
+    </style>
+  </head>
+  <body>
+    <devfestdc-app></devfestdc-app>
+
+    <script>
+      window.performance && performance.mark && performance.mark('index.html');
+      window.Polymer = { dom: 'shadow', lazyRegister: true };
+
+      // Load webcomponentsjs polyfill if browser does not support native Web Components
+      (function() {
+        'use strict';
+
+        var webComponentsSupported = (
+          'registerElement' in document
+          && 'import' in document.createElement('link')
+          && 'content' in document.createElement('template')
+        );
+
+        if (!webComponentsSupported) {
+          var script = document.createElement('script');
+          script.async = true;
+          script.src = '/bower_components/webcomponentsjs/webcomponents-lite.min.js';
+          document.body.appendChild(script);
+        }
+      })();
+    </script>
+    
+    <noscript>
+      <h1>DevFestDC 2016</h1>
+      <p>DevFestDC will be held on September 23-24, 2016 at the Capital One Conference Center 
+        (1680 Capital One Dr, McLean VA).</p>
+      <p>We expect nearly 600 attendees to these action packed sessions by leading technology experts 
+        from Google and other companies representing an exciting array of technologies including:</p>
+      <p>Great Sessions and Code Labs on DevOps, Android, Machine Learning, Wearables, Firebase, Polymer, AngularJS, 
+        Google Cloud Platform, Startups and others.</p>
+      <p><a href="http://www.devfestdc.org/tickets/">Get tickets</a></p>
+    </noscript>
+  </body>
+</html>

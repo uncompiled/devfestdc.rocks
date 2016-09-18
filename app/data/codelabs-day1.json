@@ -1,0 +1,11 @@
+{
+    "data": [{
+        "time": "10:00 - Codelabs",
+        "track1": "AngularJS - Vishal Deshpande, Armedia",
+        "track2": "Android - Jinn Kim, Boston GDG"
+    }, {
+        "time": "1:30 - Codelabs",
+        "track1": "Kubernetes - Ray Tsang, Google",
+        "track2": "Kotlin - Kashif Qureshi, AOL"
+    }]
+}

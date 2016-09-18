@@ -1,0 +1,59 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
+<link rel="import" href="../bower_components/paper-input/paper-input.html">
+
+<link rel="import" href="shared-styles.html">
+
+<dom-module id="view-sessions">
+  <template>
+    <style include="shared-styles">
+      :host {
+        display: block;
+      }
+
+      paper-input {
+        width: 90%;
+        max-width: 700px;
+        margin: 0px auto;
+      }
+    </style>
+
+    <iron-ajax auto url="/data/sessions.json" handle-as="json" last-response="{{sessions}}"></iron-ajax>
+
+    <paper-input label="Search" type="text" bind-value="{{searchString}}" value="{{searchString}}"></paper-input>
+    <template is="dom-repeat" items="{{sessions.data}}" as="session" filter="{{_filter(searchString)}}">
+      <div class="card">
+        <h1>{{ session.title }}</h1>
+    <i>
+      {{ session.name }}
+      <template is="dom-if" if="{{ session.company }}">({{ session.company }})</template>
+    </i>
+        <p>{{ session.description }}</p>
+      </div>
+    </template>
+
+  </template>
+
+  <script>
+    Polymer({
+      is: 'view-sessions',
+
+      _filter: function(string) {
+        if (!string) {
+          return null;
+        } else {
+          string = string.toLowerCase();
+          return function(session) {
+            var title = session.title.toLowerCase();
+            var name = session.name.toLowerCase();
+            var description = session.description.toLowerCase();
+            return (title.indexOf(string) != -1 || 
+              name.indexOf(string) != -1 || 
+              description.indexOf(string) != -1);
+          };
+        }
+      }
+
+    });
+  </script>
+</dom-module>

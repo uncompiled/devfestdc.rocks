@@ -1,0 +1,187 @@
+{
+	"data": [{
+		"title": "Pivotal Time to be a Developer: Global Perspective",
+		"name": "Yuriko Horvath",
+		"company": "1776",
+		"description": "Keynote"
+	}, {
+		"title": "Code Lab: TensorFlow and Machine Learning APIs",
+		"name": "Bret McGowen",
+		"company": "Google",
+		"description": "2 hours TensorFlow and Machine Learning APIs Codelabs."
+	}, {
+		"title": "Building 10x Solutions",
+		"name": "Katy Kasmai",
+		"company": "Team Exponent",
+		"description": "This workshop will take you through the Exponential Sprint and give you a first-hand experience on what’s like being a part of a high-impact team. The specially formulated design sprint will get you ideating and prototyping 10x solutions to some of the most difficult challenges facing humanity."
+	}, {
+		"title": "Code Lab: Kubernetes and Containers",
+		"name": "Ray Tsang",
+		"company": "Google",
+		"description": "Kubernetes – Containers – Code Lab taught by Ray Tsang."
+	}, {
+		"title": "TensorFlow at the Museum",
+		"name": "Josh Gordon",
+		"company": "Google",
+		"description": "Monet or Picasso? In this talk, you’ll learn how to use TensorFlow to build an image classifier that runs on your phone, using your own data. No prior machine learning experience necessary"
+	}, {
+		"title": "Zero to App Style Live-Coding Demo",
+		"name": "Frank van Puffelen",
+		"company": "Google",
+		"description": "Firebase helps mobile and web developers create extraordinary apps. It abstracts complex infrastructure and simplifies the development process. By using Firebase, developers can build the best user experience in the shortest amount of time, all without having to spin up servers or manage infrastructure. We explore how Firebase authenticates users and synchronizes data by creating an app on stage. You’ll experience first hand how easy it is to build with Firebase!"
+	}, {
+		"title": "Building Multi-Player Games with Firebase and Javascript",
+		"name": "Martin Omander",
+		"company": "Google",
+		"description": "The Firebase Database lets you synchronize data between clients in real time, which is perfect for building multi-player games. In this talk I will describe a collaborative web-based sci-fi game I built using Firebase, what I learned along the way and how it made me a better dad."
+	}, {
+		"title": "Building Real-Time Reactive Applications for the Modern User",
+		"name": "Nitya Narasimhan",
+		"company": "GDG New York",
+		"description": "Traditional mobile and web applications focused on performance, scalability and responsive design, making those the norm for a new generation of mobile web apps. However, the modern user increasingly expects real-time, reactive and offline experiences to be supported by default. In this talk, we will explore what this means in terms of requirements and implementation. In particular, we will look at two potential platforms that can support rapid prototyping, design and deployment of such applications by even novice programmers. Technologies that the talk will cover include: Meteor, React, Firebase and Material Design"
+	}, {
+		"title": "A Very Potter Door to the Future",
+		"name": "Yufeng Guo",
+		"company": "Google",
+		"description": "The entranceways to the dorms at Hogwarts were guarded by paintings that talked and asked for passwords. What if that were real? In this talk, we will look at a Harry Potter style ‘security’ system that can hear spoken passwords and see the people and objects that wish to gain entrance. Learn about how machine learning APIs will enable the next generation of smart devices."
+	}, {
+		"title": "Visualizing Data in Elasticsearch: Search, Timeseries, and Graph Analysis in the Cloud",
+		"name": "Dave Erickson",
+		"company": "Elastic",
+		"description": "Dave Erickson will walk through visualizing large data sets three ways in the popular open source BigData Search and Analytics tools Elasticsearch and Kibana. Dave will talk through spinning up cloud hosted resources to do large scale data visualization with three distinct techniques as well as talking through more advanced topics like cloud deployment options, securing data in Elasticsearch and configuring for high availability and resiliency."
+	}, {
+		"title": "Making Sense: Unleash the Power of Sensory Data to Understand User Context",
+		"name": "Jared Sheehan",
+		"company": "Capital One",
+		"description": "Mobile devices are becoming more and more powerful. They come with all sorts of wonderful hardware like cpu/gpus, tons of ram and blazing fast download times. Smart phones have become commoditized in a sense. What’s the next evolution of mobile? Now these devices are coming with a really solid set of sensors and apis that allow developers to determine a user’s context. How does that work? Developers fuse the sensor output to infer context and infer events from the data. This talk will discuss ways to do it, challenges and drawbacks."
+	}, {
+		"title": "Doing Periodic Work: Another Android Headache",
+		"name": "Mark Murphy",
+		"company": "Commonsware",
+		"description": "This talk will examine the common options for doing periodic work in an Android app, such as AlarmManager and JobScheduler. We will see the pros and cons of these techniques, particularly in light of Android 7.0’s “Doze mode” and “app standby” features — along with earlier similar capabilities from device manufacturers — to see how best to implement periodic work in your app."
+	}, {
+		"title": "Scale. Innovation. Massive Democratization. Disruption.",
+		"name": "Scale. Innovation. Massive Democratization. Disruption.",
+		"company": "Mike Brown, comScore & Raj Echambadi, Univ of Illinois",
+		"description": "Scale. Innovation. Massive Democratization. Disruption."
+	}, {
+		"title": "I'm not sure I belong here",
+		"name": "Jessica Bell (Deloitte Digital), Mark Brown (Department of Commerce), Lougenia Bailey (Excella Consulting)",
+		"description": "Developers talk a lot about new technologies, cool frameworks, hot languages, and the latest tech to be ‘over’.  Ever feel like you can’t keep up, or don’t belong? It could be your impostor syndrome trying to hold you down!  As we work towards more diversity in tech, and with that, an inclusive environment for all our developers, how do we combat impostor syndrome and the feeling of not belonging in your team?  This talk is aimed at those looking to mentor new hires, tech leaders working on diversifying their teams, new techies navigating the workplace, and more senior dev’s keeping up with the pace of the field. Jessica Bell from Deloitte Digital, Mark Brown II from the Department of Commerce, and Lougenia Bailey from Excella Consulting talk about these issues in a town hall-esque panel take your questions and share experiences. Come join the conversation!"
+	}, {
+		"title": "Espresso: A Screenshot is Worth 1,000 Words",
+		"name": "Sam Edwards",
+		"company": "Capital One",
+		"description": "Do your product owners, designers and the people that pay you understand what in the world your Espresso tests are doing and why they are valuable? You’ve spent so much time and effort writing these tests and your whole team deserves to get the most benefit out of them. In this talk you’ll learn how to setup your Espresso tests to take programmatic screenshots, and leverage the Robot pattern of testing for clean, readable, and maintainable tests."
+	}, {
+		"title": "Jumpstart MongoDB: What You Need To Know",
+		"name": "Jay Gordon",
+		"company": "mongoDB",
+		"description": "Heard of MongoDB? Want toget a quick introduction so you can begin introducing a new way to build something GIANT ? This talk gets you introduced to MongoDB and how toget started with it quickly. Learn about the basics behind MongoDB & #39;s structure, replication and tools to scale for your application. Get the information required to make a decision if you need to do all of the work, some of the work or none of the work to run MongoDB."
+	}, {
+		"title": "Measure, Layout, Draw, Repeat: Custom Views and ViewGroups",
+		"name": "Huyen Tue Dao",
+		"company": "Trello",
+		"description": "Sometimes the Android platform layouts and widgets are all you need. Sometimes you may want more control over the rendering and behavior of a view. Sometimes you may want to break up your UI into reusable components. Sometimes you may need performance help. Custom Views and ViewGroups are powerful tools, but with great power comes great complexity. In this session we will discuss why and when you would want to build a custom View, go through an example of a simple custom View and a custom ViewGroup, and talk good practices."
+	}, {
+		"title": "Decoupled, Immutable REST APIs with Kafka Streams",
+		"name": "Bobby Calderwood",
+		"company": "Capital One",
+		"description": "Have you ever hit a wall with REST? Does modeling your problem domain into CRUD-able entities feel like fitting a square peg into a round hole? Perhaps instead of modeling our services like little databases, we should instead model them like reactors to event streams. REST APIs are great, but their typical implementation tightly couples various concerns that would be better separated: * Reads (perception) from writes (action) * Current state from historical narrative * Business logic from HTTP design from operational concerns like metrics and monitoring Commander is a pattern for writing REST APIs that de-couples these concerns, thereby alleviating common frustrations with CRUD-flavored REST. This pattern imposes a clear separation of action from perception, and uses immutable values conveyed by Kafka and the Kafka Streams library to separate business logic from HTTP concerns, all while preserving the historical narrative of the entire event stream. In this talk, I’ll discuss the benefits and tradeoffs of this approach, and demonstrate my implementation using Clojure in the HTTP layer, and using Java with the new Kafka Streams library in the event stream processing layer."
+	}, {
+		"title": "Kotlin for Android Developers",
+		"name": "Michael Evans",
+		"company": "LivingSocial",
+		"description": "What’s the deal with Kotlin? Why would you want to learn a new programming language to write Android apps – isn't Java good enough? This talk is for those unacquainted with Kotlin, and might teach those who are familiar some new tricks. This talk will cover: Why Kotlin is a good choice for Android Developers, How to solve problems in more expressive ways with Kotlin’s language features, and some interesting Kotlin libraries and tools"
+	}, {
+		"title": "Poke-a-Mongo or How to write online game that works offline",
+		"name": "Oleg Godovykh",
+		"company": "Washington Post",
+		"description": "The most suffering part of mobile online apps use is going offline. You’re entering the metro, and there is no way to do anything. But wait! There are lot of offline possibilities, and lot of methods to transition between offline and online modes. Caching, prefetching, local and remote execution, etc. I’ll show an example of Android app that works seamlessly even when connection is not ideal."
+	}, {
+		"title": "Building navigation and offline maps using the Mapbox SDK",
+		"name": "Antonio Zugaldia & Cameron Mace",
+		"company": "MapBox",
+		"description": "In-app navigation is an increasingly important feature for the global app market. Whether you’re building a ride-sharing app or a food delivery service, a smooth user experience is key to customer satisfaction. Fast, performant mapping — even in areas with slow connections — is vital. Since Android serves 85% of the market worldwide, creating a good offline mapping experience is a critical piece of incorporating navigation inside your application. In this talk, we’ll focus on creating maps that maintain your app’s branding, smoothly guide users to their destination, and cache map for offline use."
+	}, {
+		"title": "Running an Inclusive Open Source Software Team",
+		"name": "Elissa Shevinsky",
+		"company": "Kearney Boyle & Associates",
+		"description": "This talk explores best practices for running an inclusive open source software team, especially within a larger company such as Google. We’ll briefly cover the basics (the range of open source code of conduct documents available to project leads) before diving into advanced topics. In-depth topics include: 1. Effective techniques for recruiting women and people of color to contribute code 2. Managing common issues when incorporating contributors commits 3. Maintaining inclusivity when managing volunteers."
+	}, {
+		"title": "Code Lab: Google Data Proc and Google Big Table",
+		"name": "SPT Krishnan",
+		"company": "PwC - Google Developer Expert",
+		"description": "Code Labs on Google Data Proc (Apache Spark infrasturcture) and Google Big Table from Google Developer Expert and Google Trainer."
+	}, {
+		"title": "Code Lab: Using your Android skills to reach users of a whole new level",
+		"name": "James Cha",
+		"company": "Clover",
+		"description": "On a platform that reaches both business owners and consumers, develop an experience that makes everyone’s life a lot easier. In this session you will learn about a new platform to develop your Android apps for. It will cover a brief introduction to the platform and also show how to integrate with other API’s to make a custom experience."
+	}, {
+		"title": "Be together, not the same",
+		"name": "Anastasia Lopez, Romain Piel",
+		"company": "SongKick",
+		"description": "The Android community is growing by leaps and bounds these days, connecting thousands of developers with values like openness, respect, and diversity. But what can we do to make sure these values are maintained? How can we contribute to building a strong culture?"
+	}, {
+		"title": "Code Lab: AngularJS",
+		"name": "Vishal Deshpande",
+		"company": "Armedia",
+		"description": "2 hours of AngularJS Hands-On Code Lab"
+	}, {
+		"title": "Wallpapers, Widgets & Wear",
+		"name": "Elizabeth Mezias",
+		"company": "Modo Labs, Boston GDG",
+		"description": "In this session Liz will cover the basics of creating 3 types of glance-able display. The session will also review research Liz did as part of a team at Stanford University that used the Nexus 1 to get people to sit less and move more with widgets and wallpapers."
+	}, {
+		"title": "Set Course for Notifications… Engage!",
+		"name": "Eric Fung",
+		"company": "Shopify",
+		"description": "With only a minimum of coding, Firebase provides your Android app with simple push notifications and collects analytics to measure user engagement. However, if you need to customize the notifications or their behavior, you need to implement everything yourself. For a recent Android news app I developed, I wanted to use push messaging to inform users when new articles were published. This talk will describe how I used three Firebase tools (Notifications, Cloud Messaging, and Analytics) to implement custom notifications and analytics to track their performance."
+	}, {
+		"title": "Implementing HTTP/2 Server with Node and Express",
+		"name": "Azat Mardan",
+		"company": "Capital One",
+		"description": "Implementing HTTP/2 Server with Node and Express"
+	}, {
+		"title": "Open Source Identity Management with Kubernetes RBAC",
+		"name": "Marc Boorshtein",
+		"company": "Tremolo Security",
+		"description": "Kubernetes 1.3’s new role based access control feature is in alpha, but offers many advanced capabilities. I’ll talk about the RBAC model, how it could be used in a multi-tenant deployment and demo its use with OpenUnison."
+	}, {
+		"title": "D3 + AngularJS = Visual Awesomesauce ",
+		"name": "John Niedzwieck",
+		"company": "ThreatTrack",
+		"description": "We live in a world of data. When it comes to developing with that data, we need to do more than show numbers to our users. With the combination of D3 and AngularJS, we can take that data and create versatile and interactive visualizations that respond to dynamic data. In this talk, we’ll look at how to create visualizations of data with D3 combined with Angular 1.5 directives and Angular 2 Components."
+	}, {
+		"title": "Google Tag Manager (GTM)",
+		"name": "Eric Newman and Naveen Singhal",
+		"company": "Mobileposse",
+		"description": "With the evolution of Google’s Tag Manager, there are new ways to customize and control existing web applications without a full deployment. By adding GTM to your site, as well as creating the appropriate tags, many aspects of your experience can be controlled. GTM can create custom audience segments, changes to business logic, customized UI enhancements, complex “what-if” tests, click-tracking, and other user interface instrumentation, as well as all sorts of custom metrics and reporting. GTM can be used to control tests, and experiments, prototype alternative implementations, vary ad network behavior, and all sorts of other things. GTM allows centralized management via an online portal, and allows a team to manage tests, updates, rollbacks, and other aspects from a central location. In this presentation, we’ ll look at the fundamentals of GTM, and some examples of using it to instrument, and control aspects of your web applications, and sites."
+	}, {
+		"title": "Building a Self-Driving Delivery Rover with Empathic Validation",
+		"name": "Noble Ackerson",
+		"company": "Byte an Atom Research",
+		"description": "There are no chicken and egg causality dilemmas with your startup idea when you take the time to understand your user."
+	}, {
+		"title": "The Hitchhiker's Guide to Building a Progressive Web App",
+		"name": "Chris Nguyen",
+		"company": "Washington Post",
+		"description": "Progressive Web Apps are generating a lot of buzz and for a good reason.  Service Workers enable PWAs to take mobile-first web development down to the network level.  Through a discussion of the Service Worker API and available tools, we’ll explore different ways that you can build a Progressive Web App and engage users even when they’re offline."
+	}, {
+		"title": "JHipster on Kubernetes",
+		"name": "Dennis Sharpe",
+		"company": "IpponUSA",
+		"description": "JHipster is a free and open-source application generator used to quickly develop a modern web application using AngularJS and Java Spring. JHipster uses tools and APIs popular in the Java community and constantly evolves as the tools and technology changes. JHipster also includes sub-generators that can create entities or handle deployments. The latest sub-generator supports deployments to Kubernetes. This presentation shows how easy it is to create a new web application using JHipster and then deploy that to Kubernetes."
+	}, {
+		"title": "Introduction to Go Concurrency",
+		"name": "Jonathan Bodner",
+		"company": "Capital One",
+		"description": "Go was invented by Google to help it rapidly build large-scale services. One of the features of Go that makes it well suited for modern cloud computing is its concurrency support. Unlike most other programming languages, concurrency is a core part of Go. This talk introduces Go’s concurrency features, shows how they work together, and outlines some tips, traps, and tricks for using concurrency effectively."
+	}, {
+		"title": "PaaS",
+		"name": "Michael Epley",
+		"company": "RedHat",
+		"description": "PaaS Discussion"
+	}]
+}

@@ -1,0 +1,11 @@
+{
+    "data": [{
+        "time": "10:00 - Codelabs",
+        "track1": "TensorFlow - Bret McGowan & Yufeng Gao, Google",
+        "track2": "Google Data Proc and Google Big Table - SPT Krishnan"
+    }, {
+        "time": "1:30 - Codelabs",
+        "track1": "The Clover Platform - Using your Android skills to reach users of a whole new level - James Cha, Clover",
+        "track2": "Firebase - Martin Omander & Frank van Puffelen, Google"
+    }]
+}

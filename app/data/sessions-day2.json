@@ -18,7 +18,7 @@
 		"track3": "Workshop: Building 10x Solutions - Katy Kasmai, Team Exponent/Google"
 	}, {
 		"time": "10:45 - 11:30",
-		"track1": "Building navigation and offline maps using the Mapbox SDK - Antonio Zugaldia & Cameron Mace, Mapbox",
+		"track1": "Kotlin for Android Developers - Mike Evans, LivingSocial",
 		"track2": "Introduction to Go Concurrency - Jonathan Bodner, Capital One - Go",
 		"track3": "Workshop: Building 10x Solutions"
 	}, {
@@ -27,8 +27,8 @@
 		"track3": "Workshop: Building 10x Solutions"
 	}, {
 		"time": "11:45 - 12:30",
-		"track1": "Open Source Identity Management with Kubernetes RBAC - Marc Boorshtein, Tremolo Security",
-		"track2": "User-centered Product Validation - Noble Ackerson, Byte an Atom Research",
+		"track1": "Building a self driving delivery rover with empathic validation - Noble Ackerson, Byte an Atom Research",
+		"track2": "Open Source Identity Management with Kubernetes RBAC - Marc Boorshtein, Tremolo Security",
 		"track3": "Workshop: Building 10x Solutions"
 	}, {
 		"time": "12:30 - 1:30",
@@ -41,7 +41,7 @@
 		"track3": "Workshop: Building 10x Solutions"
 	}, {
 		"time": "2:15 - 3:00",
-		"track1": "Building Real-Time Reactive Applications for the Modern User - Nitya Narasimhan, Google",
+		"track1": "Cost effective Transient Big data solutions on AWS - Gaurav Agarwal AOL",
 		"track2": "Google Tag Manager (GTM) - Naveen Singhal & Eric Newman, MobilePosse",
 		"track3": "Workshop: Building 10x Solutions"
 	}, {
@@ -50,7 +50,7 @@
 		"track3": "Workshop: Building 10x Solutions"
 	}, {
 		"time": "3:15 - 4:00",
-		"track1": "Jumpstart MongoDB: What You Need To Know - Jay Gordon, MongoDB",
+		"track1": "Building Real-Time Reactive Applications for the Modern User - Nitya Narasimhan - GDG NYC",
 		"track2": "Decoupled, Immutable REST APIs with Kafka Streams",
 		"track3": "Workshop: Building 10x Solutions"
 	}, {

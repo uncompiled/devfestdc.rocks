@@ -13,22 +13,22 @@
 		"track1": "(Coffee break)"
 	}, {
 		"time": "10:00 - 10:45",
-		"track1": "TensorFlow at the Museum - Josh Gordon, Google",
+		"track1": "Zero to App style live-coding demo - Frank van Puffelen, Google",
 		"track2": "Implementing HTTP/2 Server with Node and Express - Azat Mardan, Capital One",
 		"track3": "Espresso: A Screenshot is Worth 1,000 Words - Sam Edwards, Capital One"
 	}, {
 		"time": "10:45 - 11:30",
-		"track1": "Zero to App style live-coding demo - Frank van Puffelen, Google",
+		"track1": "A Very Potter Door to the Future - Yufeng Gao, Google",
 		"track2": "Visualizing data in Elasticsearch: Search, Timeseries, and Graph Analysis in the Cloud - Dave Erickson, Elastic",
-		"track3": "Kotlin for Android Developers - Mike Evans, LivingSocial"
+		"track3": "Making Sense - Unleash The Power of Sensory Data to Understand User Context Jared Sheehan, Capital One"
 	}, {
 		"time": "11:30 - 11:45",
 		"track1": "(Break)"
 	}, {
 		"time": "11:45 - 12:30",
-		"track1": "A Very Potter Door to the Future - Yufeng Gao, Google",
+		"track1": "TensorFlow at the Museum - Josh Gordon, Google",
 		"track2": "D3 + AngularJS = Visual Awesomesauce - John Niedzwieck - ThreatTrack",
-		"track3": "Making Sense - Unleash The Power of Sensory Data to Understand User Context Jared Sheehan, Capital One"
+		"track3": "Building navigation and offline maps using the Mapbox SDK - Antonio Zugaldia & Cameron Mace, Mapbox"
 	}, {
 		"time": "12:30 - 1:30",
 		"track1": "(Lunch break)"
@@ -39,7 +39,7 @@
 		"track3": "Measure, Layout, Draw, Repeat: Custom Views and ViewGroups - Huyen Tue Dao, Trello"
 	}, {
 		"time": "2:15 - 3:00",
-		"track1": "Game Development with Firebase and Javascript - Martin Omander, Google",
+		"track1": "Building Multi-Player Games with Firebase and Javascript - Martin Omander, Google",
 		"track2": "The Hitchhiker's Guide to Building a Progressive Web App - Chris Nguyen, Washington Post",
 		"track3": "PaaS - Michael Epley, RedHat"
 	}, {
@@ -47,17 +47,19 @@
 		"track1": "(Break)"
 	}, {
 		"time": "3:15 - 4:00",
-		"track1": "Be together, not the same - Anastasia Lopez & Romain Piel, Songkick",
-		"track2": "What’s Next For Openstack At Walmart - Andrew Mitry, Walmart - Openstack",
+		"track1": "gRPC 101 - building small and efficient microservices - Ray Tsang - Google",
+		"track2": "Jumpstart MongoDB: What You Need To Know - Jay Gordon, MongoDB",
 		"track3": "Poke-a-Mongo or How to write online game that works offline - Oleg Godovykh"
 	}, {
 		"time": "4:00 - 4:45",
-		"track1": "Fireside Chat: Scale. Innovation. Massive Democratization. Disruption. - Mike Brown, comScore & Raj Echambadi - Univ of Illinois"
+		"track1": "Fireside Chat: Scale. Innovation. Massive Democratization. Disruption. - Mike Brown, comScore & Raj Echambadi - Univ of Illinois",
+		"track2": "Be together, not the same - Anastasia Lopez & Romain Piel, Songkick",
+		"track3": "Say it With Video - Annyce Davis, Off Grid Electric"
 	}, {
 		"time": "4:45 - 5:00",
 		"track1": "Closing"
 	}, {
-		"time": "5:00",
+		"time": "6:00",
 		"track1": "Happy Hour"
 	}]
 }

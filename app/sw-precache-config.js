@@ -1,7 +1,6 @@
 module.exports = {
   staticFileGlobs: [
     '/images/**/*',
-    '/data/**/*',
     '/index.html',
     '/manifest.json',
     '/bower_components/webcomponentsjs/webcomponents-lite.min.js'
@@ -25,6 +24,16 @@ module.exports = {
         cache: {
           maxEntries: 50,
           name: 'gstatic-cache'
+        }
+      }
+    },
+    {
+      urlPattern: /\/data\//,
+      handler: 'fastest',
+      options: {
+        cache: {
+          maxEntries: 5,
+          name: 'data-cache'
         }
       }
     }

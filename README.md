@@ -17,6 +17,7 @@ If you don't have the Polymer CLI installed, you can install it with `npm instal
 ## Build the App
 
 - `cd app`
+- `bower install`
 - `polymer build`
 
 This will create a `build` folder with an unbundled version for HTTP/2 + Server Push
